@@ -84,22 +84,6 @@ Nine major test scenarios were verified to ensure full UART functionality:
 - ✅ All Assertions Passed
 - ✅ Verification goals and protocol compliance met
 
-### Coverage Summary
-
-![Coverage](docs/coverage.png)
-
-### UART Data Frame
-
-![Data Frame](docs/uart_data_frame.png)
-
-### Waveform Example
-
-![Waveform](docs/wave_form.png)
-
-### Terminal Output
-
-![Output](docs/terminal_output.png)
-
 
 ## 🏁 Conclusion
 
