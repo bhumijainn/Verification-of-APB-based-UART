@@ -1,13 +1,13 @@
 # Verification-of-APB-based-UART
 
-# 📘 Overview
+#  Overview
 
 This project focuses on the **functional verification of an APB-based UART Master Core RTL**.
  The verification is carried out using a **UVM (Universal Verification Methodology)** environment designed to ensure the correctness, reliability, and robustness of UART operation under various test scenarios.
 
 Two UART cores are instantiated and connected to simulate **data transmission and reception**. The verification ensures that all UART functionalities perform as expected and comply with the APB protocol.
 
-## 🔌 APB Protocol Overview
+##  APB Protocol Overview
 
 The **Advanced Peripheral Bus (APB)** is a part of ARM’s AMBA (Advanced Microcontroller Bus Architecture) family.
  It is designed for connecting low-bandwidth peripherals that do not require high performance.
@@ -20,7 +20,7 @@ The **Advanced Peripheral Bus (APB)** is a part of ARM’s AMBA (Advanced Microc
 - Synchronous operation with a single clock
 
 
-## 📡 UART Overview
+##  UART Overview
 
 The **Universal Asynchronous Receiver-Transmitter (UART)** is a serial communication protocol widely used in embedded systems.
  It converts parallel data from the CPU into serial form for transmission and vice versa for reception.
@@ -44,7 +44,7 @@ The **Universal Asynchronous Receiver-Transmitter (UART)** is a serial communica
 - Requires precise baud rate synchronization
 
 
-## 🧱 Testbench Architecture
+##  Testbench Architecture
 
 The UVM-based verification environment includes:
 
@@ -60,7 +60,7 @@ The UVM-based verification environment includes:
 Each UART core transmits and receives data through APB interface transactions, and the verification environment checks protocol compliance and data integrity.
 
 
-## 🧪 Test Cases
+##  Test Cases
 
 Nine major test scenarios were verified to ensure full UART functionality:
 
@@ -78,14 +78,14 @@ Nine major test scenarios were verified to ensure full UART functionality:
 
 ---
 
-## 📊 Results & Coverage
+##  Results & Coverage
 
 - ✅ **100% Functional Coverage Achieved**
 - ✅ All Assertions Passed
 - ✅ Verification goals and protocol compliance met
 
 
-## 🏁 Conclusion
+##  Conclusion
 
 This project successfully verified the **APB-based UART Master Core RTL** using a **UVM-based testbench**, achieving **100% functional coverage** across multiple UART operation modes and error conditions.
  The verification environment is scalable for integrating more agents and extending coverage for advanced UART configurations.
